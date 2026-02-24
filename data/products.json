@@ -1,0 +1,86 @@
+[
+	{
+		"Id": 1,
+		"Name": "Camiseta Básica",
+		"Description": "Camiseta 100% algodão, disponível em várias cores",
+		"Price": 39.90,
+		"Category": "Roupas"
+	},
+	{
+		"Id": 2,
+		"Name": "Caneca Cerâmica",
+		"Description": "Caneca branca 300ml, adequada para micro-ondas",
+		"Price": 19.50,
+		"Category": "Cozinha"
+	},
+	{
+		"Id": 3,
+		"Name": "Fone Bluetooth",
+		"Description": "Fone sem fio com cancelamento parcial de ruído",
+		"Price": 129.99,
+		"Category": "Eletrônicos"
+	},
+	{
+		"Id": 4,
+		"Name": "Agenda 2026",
+		"Description": "Agenda diária capa dura 160 páginas",
+		"Price": 24.90,
+		"Category": "Papelaria"
+	},
+	{
+		"Id": 5,
+		"Name": "Mochila Casual",
+		"Description": "Mochila 20L com compartimento para laptop 15''",
+		"Price": 199.00,
+		"Category": "Acessórios"
+	},
+	{
+		"Id": 6,
+		"Name": "Garrafa Térmica",
+		"Description": "Garrafa inox 500ml, mantém bebidas quentes por 12h",
+		"Price": 79.90,
+		"Category": "Cozinha"
+	},
+	{
+		"Id": 7,
+		"Name": "Teclado Mecânico",
+		"Description": "Teclado compacto com switches táteis",
+		"Price": 289.90,
+		"Category": "Eletrônicos"
+	},
+	{
+		"Id": 8,
+		"Name": "Relógio Casual",
+		"Description": "Relógio analógico com pulseira de couro sintético",
+		"Price": 149.00,
+		"Category": "Acessórios"
+	},
+	{
+		"Id": 9,
+		"Name": "Livro: Lógica Avançada",
+		"Description": "Guia prático com exemplos e padrões de projeto",
+		"Price": 89.90,
+		"Category": "Livros"
+	},
+	{
+		"Id": 10,
+		"Name": "Suporte para Notebook",
+		"Description": "Suporte ajustável para melhorar ergonomia",
+		"Price": 59.90,
+		"Category": "Eletrônicos"
+	},
+	{
+		"Id": 11,
+		"Name": "Câmera Web HD",
+		"Description": "Câmera USB 1080p para chamadas e streaming",
+		"Price": 199.99,
+		"Category": "Eletrônicos"
+	},
+	{
+		"Id": 12,
+		"Name": "Tapete Yoga",
+		"Description": "Tapete antiderrapante 6mm para exercícios",
+		"Price": 69.90,
+		"Category": "Esporte"
+	}
+]
