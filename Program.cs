@@ -8,6 +8,17 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 // Injeção do banco de dados (sqlite)
 builder.Services.AddScoped<ProductContext>();
+// cors
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
+});
 
 var app = builder.Build();
 
@@ -18,6 +29,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.ProductRoutes();
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 app.Run();
